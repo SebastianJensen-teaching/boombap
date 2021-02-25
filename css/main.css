@@ -41,6 +41,8 @@ header nav {
 }
 
 header nav a {
+  display: inline-block;
+  margin-right: 1rem;
   font-family: "Libre Franklin";
   color: #ccc;
   text-decoration: none;
@@ -97,6 +99,7 @@ button:hover {
 }
 
 footer {
+  margin-top: 1.5rem;
   background-color: #000;
   padding: 1.5rem;
 }
