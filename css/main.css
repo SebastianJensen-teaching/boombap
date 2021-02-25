@@ -93,7 +93,8 @@ button:hover {
 
 .col-grid {
   display: grid;
-  place-items: center;
+  align-items: center;
+  justify-items: center;
   grid-auto-flow: column;
   min-height: 100%;
 }
@@ -140,7 +141,8 @@ footer a:hover {
   width: 100%;
   background-repeat: no-repeat;
   display: grid;
-  place-items: center;
+  align-items: center;
+  justify-items: center;
   position: relative;
 }
 
@@ -157,7 +159,8 @@ footer a:hover {
   padding: 1.5rem;
   background-color: #000;
   display: grid;
-  place-items: center;
+  align-items: center;
+  justify-items: center;
   grid-gap: 1.5rem;
   position: absolute;
   bottom: 2rem;
@@ -181,7 +184,8 @@ footer a:hover {
   padding: 5rem;
   display: grid;
   grid-auto-flow: column;
-  place-items: center;
+  align-items: center;
+  justify-items: center;
   gap: 2rem;
   width: 50%;
   height: 100%;
