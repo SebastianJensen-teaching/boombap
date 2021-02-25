@@ -125,6 +125,7 @@ footer a:hover {
 }
 
 .boom-bap-header {
+  margin-top: 2rem;
   color: #ccc;
   font-family: "Libre Franklin";
   user-select: none;
