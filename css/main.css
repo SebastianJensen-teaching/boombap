@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Libre+Franklin:wght@900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #000;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+  background-color: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #00aeff;
+}
+
+header {
+  background-color: #000;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  margin-right: 1.5rem;
+  line-height: 2.5;
+  height: 100%;
+}
+
+header nav a {
+  font-family: "Libre Franklin";
+  color: #ccc;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: #ffae00;
+}
+
+main {
+  background-color: #333;
+}
+
+p {
+  margin-top: 2rem;
+  font-family: "Arvo";
+  font-size: 1.2rem;
+  line-height: 1.5;
+  width: 320px;
+  text-align: left;
+  color: #ccc;
+}
+
+p::selection {
+  background-color: #00aeff;
+  color: #333;
+}
+
+[data-orange] {
+  color: #ffae00;
+}
+
+[data-blue] {
+  color: #00aeff;
+}
+
+button {
+  font-family: "Libre Franklin";
+  background-color: #ccc;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 12px;
+}
+
+button:hover {
+  background-color: #ffae00;
+}
+
+.col-grid {
+  display: grid;
+  place-items: center;
+  grid-auto-flow: column;
+  min-height: 100%;
+}
+
+footer {
+  background-color: #000;
+  padding: 1.5rem;
+}
+
+footer h3 {
+  color: #ccc;
+  font-family: "Libre Franklin";
+  line-height: 2.5;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  color: #ccc;
+  font-family: "Arvo";
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.boom-bap-header {
+  color: #ccc;
+  font-family: "Libre Franklin";
+  user-select: none;
+  font-size: 4rem;
+}
+
+.left-side img {
+  margin-top: 2rem;
+  width: 320px;
+}
+
+.right-side {
+  min-height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.boom-bap-slogan {
+  color: #ccc;
+  font-family: "Libre Franklin";
+  user-select: none;
+  font-size: 3rem;
+  position: absolute;
+  top: 2rem;
+}
+
+.contact-me {
+  padding: 1.5rem;
+  background-color: #000;
+  display: grid;
+  place-items: center;
+  grid-gap: 1.5rem;
+  position: absolute;
+  bottom: 2rem;
+}
+
+.contact-me [data-email] {
+  font-family: "Arvo";
+  line-height: 2.5;
+  font-style: italic;
+  border: 0;
+  padding-left: 2ch;
+}
+
+.right-side img {
+  height: 100%;
+  user-select: none;
+  -moz-window-dragging: none;
+}
+
+.who-wrapper {
+  padding: 0 5rem;
+  display: grid;
+  grid-auto-flow: column;
+  place-items: center;
+  gap: 2rem;
+  width: 50%;
+  height: 100%;
+}
+
+.who-wrapper .portait {
+  clip-path: circle(40% at 50% 50%);
+  width: 320px;
+}
+
+.who-wrapper p {
+  width: 100%;
+  margin-left: 1rem;
+}
