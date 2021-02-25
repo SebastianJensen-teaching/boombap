@@ -184,7 +184,7 @@ footer a:hover {
 .who-wrapper {
   padding: 5rem;
   display: grid;
-  grid-auto-flow: column;
+  grid-template-columns: 2fr 1fr;
   align-items: center;
   justify-items: center;
   gap: 2rem;
@@ -195,6 +195,7 @@ footer a:hover {
 .who-wrapper .portait {
   clip-path: circle(40% at 50% 50%);
   width: 320px;
+  margin-left: 2rem;
 }
 
 .who-wrapper p {
